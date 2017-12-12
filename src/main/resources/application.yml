@@ -5,11 +5,15 @@ info:
 
 ---
 server:
+  # server port
   port: 8888
+  # access url
   context-path: /config
 spring:
   profiles:
+    # local configure file
     active:
       - native
   application:
-    name: sso-config
+    # app name
+    name: cas-config
