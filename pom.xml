@@ -4,13 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example.gogeof</groupId>
-        <artifactId>sso-spring-dependencies</artifactId>
-        <version>1.6.0-RC1</version>
-        <relativePath>../sso-spring-dependencies</relativePath>
+        <artifactId>spring-dependencies</artifactId>
+        <version>1.6.0</version>
+        <relativePath>spring-dependencies</relativePath>
     </parent>
 
-    <artifactId>sso-config</artifactId>
-    <name>sso-config</name>
+    <artifactId>cas-config</artifactId>
+    <groupId>org.example.gogeof</groupId>
+    <version>1.0.0</version>
+    <name>cas-config</name>
 
     <dependencies>
         <dependency>

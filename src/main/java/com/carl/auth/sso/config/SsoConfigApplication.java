@@ -1,7 +1,3 @@
-/*
- * 版权所有.(c)2008-2017. 卡尔科技工作室
- */
-
 package com.carl.auth.sso.config;
 
 import org.springframework.boot.SpringApplication;
