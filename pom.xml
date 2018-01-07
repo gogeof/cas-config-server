@@ -28,6 +28,15 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.3.RELEASE</version>
+                <configuration>
+                    <mainClass>org.example.gogeof.cas.config.CasConfigApplication</mainClass>
+                    <addResources>true</addResources>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
